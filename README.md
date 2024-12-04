@@ -18,4 +18,6 @@ or other external libraries. `wc -c` for counting "golfing" score.
 | ---------- | ----------- |
 | `golfs/01-1.py` | `119` | <!-- STATS -->
 | `golfs/01-2.py` | `113` | <!-- STATS -->
-| `total` | `232` | <!-- STATS -->
+| `golfs/04-1.py` | `245` | <!-- STATS -->
+| `golfs/04-2.py` | `237` | <!-- STATS -->
+| `total` | `714` | <!-- STATS -->
