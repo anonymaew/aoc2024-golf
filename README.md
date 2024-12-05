@@ -9,15 +9,21 @@ Some people use this opportunity to learn new coding language, some pursuing
 global leaderboard, but why not codegolfing? It's fun and (too) addictive. I
 get to optimize and use skills that are purely useless in real world.
 
+## Rules
+
+- Python version 3.12 (or higher)
+- No external libraries: NumPy, etc. Only standard libraries.
+- The program receives input via `stdin` (piped), output on `stdout`
+
 ## Stats
 
-In this case, I use Python3.12 with standard library only for golfing, no NumPy
-or other external libraries. `wc -c` for counting "golfing" score.
+Populated using `summarize.sh`, which uses `wc -c` for counting "golfing" score
+and modify `README.md` stats.
 
 | Challenges | Bytes count |
 | ---------- | ----------- |
-| `golfs/01-1.py` | `119` | <!-- STATS -->
-| `golfs/01-2.py` | `113` | <!-- STATS -->
+| `golfs/01-1.py` | `106` | <!-- STATS -->
+| `golfs/01-2.py` | `84` | <!-- STATS -->
 | `golfs/04-1.py` | `118` | <!-- STATS -->
 | `golfs/04-2.py` | `123` | <!-- STATS -->
-| `total` | `473` | <!-- STATS -->
+| `total` | `431` | <!-- STATS -->

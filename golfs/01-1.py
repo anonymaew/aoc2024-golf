@@ -1,4 +1,2 @@
-import sys
-s=0
-for(p,q)in zip(*[sorted(map(int,n)) for n in zip(*[l.split()for l in sys.stdin])]):s+=abs(p-q)
-print(s)
+l,s=open(0).read().split(),sorted
+print(sum([abs(int(p)-int(q))for p,q in zip(*[s(l[::2]),s(l[1::2])])]))

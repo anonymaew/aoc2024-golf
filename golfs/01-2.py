@@ -1,6 +1,2 @@
-import sys
-s=0
-p,q=zip(*[map(int,l.split())for l in sys.stdin])
-for m in p:
-  for n in q:s+=[0,m][m==n]
-print(s)
+f=open(0).read().split()
+print(sum([(i==j)*int(j)for j in f[1::2]for i in f[::2]]))
