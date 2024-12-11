@@ -28,4 +28,6 @@ and modify `README.md` stats.
 | `golfs/04-2.py` | `121` | <!-- STATS -->
 | `golfs/05-1.py` | `238` | <!-- STATS -->
 | `golfs/05-2.py` | `250` | <!-- STATS -->
-| `total` | `917` | <!-- STATS -->
+| `golfs/11-1.py` | `253` | <!-- STATS -->
+| `golfs/11-2.py` | `253` | <!-- STATS -->
+| `total` | `1423` | <!-- STATS -->
